@@ -1,0 +1,15 @@
+# Kickstarter-Challenge1-
+Elena Roye Challenge 1
+Overview of Project: 
+Outcomes based on Goals was to see the success rate of a pledged amount based on the goal. The theater outcomes based on launch date allows one subcategory of data to be analyzed according to the outcome and its year/month. This allows us to make analyses based on season trends. It is also helpful to visualize how many of the theater kickstarters being launched are successful, failed, or cancelled. 
+Analysis and Challenges: 
+Graphs and charts allow large amounts of data to be more digestible and to make observations based on the visualization. Challenges I overcame was learning how to overcome the date formula, =(((J2/60)/60)/24)+DATE(1970,1,1). I noticed that the excel cells kept resorting to the actual data in the “Launched at” column, rather than the cell itself. I also struggled with categorizing the data in the pivot table correctly at first, as I was trying to figure out how to obtain the “years” in the pivot table. I added “Date Created” twice to Filters. I was then able to utilize a similar process to obtain quarters, which was also interesting to work with. 
+Two conclusions about Outcomes based on Launch Date:
+Beginning in February was an increase in kick starters being launched and from May onwards there was a decline in successful kick starters. The lines are almost in unison, as successful Kickstarters increased from September to November, as did the cancelled and failed Kickstarters.  There are also more cancelled and failed outcomes than there are successful outcomes for theater Kickstarters.
+Conclusion about Outcomes based on Goals:
+The first conclusion made is that the lower the goal amount, the higher the success rate. Another analysis is that a higher goal amount leads to more cancelled outcomes. The same can be said with the percentage failed, it increases as the goal amount increases. From 35K to 45K, there was an increase in successful outcomes. The goals with successful outcomes prior to 35K were on a slight decline. From 35K to 45K, the trend did not continue as I expected, with goals increasing, and successful/cancelled outcomes increasing. 
+Limitations of Dataset:
+Outcomes Based on Goals: It is not being broken down by parent category or subcategories. The data is generalized together. Another example of this is that there is no information including dates which could permit us to make conclusions based on time of year.
+Theater Outcomes Based on Goals: The goal amount is not included in this dataset which could lead to misleading conclusions about this data. For example, is there an increase in successful kickstarters in May because it is summertime or because the goal amount was lower? Another limitation is not knowing the name of the theater Kickstarter to know which were successful and which are not. 
+Other Tables/Graphs that could be Created:
+A bar graph would be interesting to see for both analyses. A histogram for percentage funded to see how close kickstarters were to reaching their goal. 
